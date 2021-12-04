@@ -25,7 +25,7 @@ namespace d1_t1
             {
                 for (int j = 0; j < input_length; j++)
                 {
-                    char c = line.ToCharArray()[j];
+                    char c = line[j];
                     if (c == '1')
                     {
                         ones[j]++;
